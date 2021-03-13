@@ -1,0 +1,46 @@
+#service-section {
+    margin-top: 100px;
+    height: 400px;
+    height: auto;
+}
+
+.service-topic {
+    text-align: center;
+}
+
+.service-topic span {
+    color: #c5a880;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.service-topic h2 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.hotel-service {
+    display: flex;
+    margin-top: 70px;
+}
+
+.service-item {
+    border-radius: 50% 50% 50% 0;
+    background-color: #fff;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    height: 151px;
+}
+
+.service-item i {
+    margin-top: 25px;
+    color: #c5a880;
+}
+
+.service-item h2 {
+    margin-top: 10px;
+    color: gray;
+    font-weight: 300;
+}

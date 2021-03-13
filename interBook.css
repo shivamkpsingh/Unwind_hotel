@@ -1,0 +1,47 @@
+#book-table {
+    margin-top: 60px;
+    height: 350px;
+}
+
+.intermediate-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.intermediate-booking::before {
+    content: "";
+    background: url(./img/inter-img1.jpg) no-repeat center center/cover;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    height: 350px;
+    position: absolute;
+}
+
+.intermediate-content {
+    margin-top: 90px;
+}
+
+.intermediate-content span {
+    color: #b44646;
+    font-weight: 700;
+}
+
+.intermediate-content h2 {
+    font-size: 2.5rem;
+    color: white;
+    width: 509px;
+    font-weight: 300;
+}
+
+.intermediate-button a {
+    background-color: #c5a880;
+    text-decoration: none;
+    border: 1px solid #c5a880 !important;
+    padding: 18px 27px;
+    display: inline-block;
+    margin-top: 60px;
+    color: white;
+}

@@ -1,0 +1,87 @@
+#about-section {
+    margin-top: 60px;
+    height: auto;
+}
+
+.about-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-items {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    margin-left: 40px;
+}
+
+.first-about-card {
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    text-align: center;
+    height: 252px;
+}
+
+.first-about-card:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.first-about-card i {
+    color: #c5a880;
+    margin: 36px 0px 22px;
+}
+
+.first-about-card p {
+    color: gray;
+    margin-top: 15px;
+    font-size: 19px;
+}
+
+.fourth-card {
+    margin-top: -40px;
+}
+
+.about-items img {
+    width: 100%;
+}
+
+.about-booking {
+    height: 500px;
+    margin-left: 40px;
+}
+
+.about-booking-card {
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.about-booking-card span {
+    color: #c5a880;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.about-booking-card h2 {
+    width: 440px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.about-booking-card p {
+    color: gray;
+    font-size: 19px;
+    margin-top: 19px;
+}
+
+.about-booking-card a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 65px;
+    background-color: #c5a880;
+    padding: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
