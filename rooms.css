@@ -58,7 +58,6 @@
 }
 
 .room-card #room-rent {
-    display: flex;
     display: inline-block;
     color: #c5a880;
     margin: 25px 15px;
