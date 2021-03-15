@@ -45,3 +45,16 @@
     color: gray;
     font-weight: 300;
 }
+
+@media only screen and (max-width:320px) {
+    .service-topic h2 {
+        font-size: 30px !important;
+    }
+    .hotel-service {
+        flex-direction: column;
+    }
+    .service-item {
+        border-radius: 0px;
+        margin: 5px 0px 0px 0px;
+    }
+}

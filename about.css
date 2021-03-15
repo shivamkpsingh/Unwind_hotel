@@ -13,7 +13,7 @@
     grid-template-columns: 300px 300px;
     grid-column-gap: 32px;
     grid-row-gap: 32px;
-    margin-left: 40px;
+    padding: 20px;
 }
 
 .first-about-card {
@@ -44,11 +44,6 @@
 
 .about-items img {
     width: 100%;
-}
-
-.about-booking {
-    height: 500px;
-    margin-left: 40px;
 }
 
 .about-booking-card {
@@ -84,4 +79,21 @@
     color: whitesmoke;
     font-weight: 500;
     box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+
+@media only screen and (max-width:320px) {
+    .about-title {
+        flex-direction: column;
+    }
+    .about-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-booking-card h2 {
+        font-size: 28px;
+        width: 230px;
+    }
+    .service-topic h2 {
+        font-size: 30px !important;
+    }
 }

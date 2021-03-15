@@ -40,3 +40,9 @@
     color: #fff;
     margin-top: 22px;
 }
+
+@media only screen and (max-width:320px) {
+    .tour-content span {
+        font-size: 16px;
+    }
+}

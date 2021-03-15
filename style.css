@@ -61,6 +61,10 @@ body {
 
 .home-containt {
     margin-top: 150px;
+    height: 650px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .home-containt p {
@@ -88,7 +92,6 @@ body {
 
 #tourBtn {
     background: #c5a880!important;
-    margin-left: 225px;
 }
 
 #container {
@@ -97,9 +100,9 @@ body {
 
 .form-booking {
     display: flex;
-    margin-left: 132px;
-    margin-right: 40px;
     margin-top: -123px;
+    justify-content: center;
+    padding: 40px;
 }
 
 .form-content {
@@ -133,4 +136,31 @@ body {
 #color-ful p {
     width: 107px;
     margin-left: 59px;
+}
+
+@media only screen and (max-width:320px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .navigationbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item ul {
+        display: none;
+    }
+    .home-containt p {
+        text-align: center;
+        font-size: 11px;
+    }
+    .home-containt h1 {
+        font-size: 37px;
+    }
+    #tourBtn {
+        margin-left: 0px;
+    }
+    .form-booking {
+        flex-direction: column;
+    }
 }

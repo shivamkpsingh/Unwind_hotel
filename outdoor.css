@@ -1,0 +1,25 @@
+#outdoor-section {
+    margin-top: 60px;
+    /* height: 500px; */
+    height: auto;
+}
+
+.outdoor-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 20px;
+}
+
+.outdoor-gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+@media only screen and (max-width:320px) {
+    .outdoor-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+}

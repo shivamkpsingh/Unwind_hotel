@@ -45,3 +45,13 @@
     margin-top: 60px;
     color: white;
 }
+
+@media only screen and (max-width:320px) {
+    .intermediate-booking {
+        flex-direction: column;
+    }
+    .intermediate-content h2 {
+        font-size: 1.5rem;
+        width: 268px;
+    }
+}
