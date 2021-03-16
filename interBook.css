@@ -55,3 +55,13 @@
         width: 268px;
     }
 }
+
+@media only screen and (min-width:321px) and (max-width:480px) {
+    .intermediate-booking {
+        flex-direction: column;
+    }
+    .intermediate-content h2 {
+        font-size: 1.5rem;
+        width: 268px;
+    }
+}

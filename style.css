@@ -134,8 +134,8 @@ body {
 }
 
 #color-ful p {
-    width: 107px;
-    margin-left: 59px;
+    font-size: 24px;
+    padding: 15px;
 }
 
 @media only screen and (max-width:320px) {
@@ -162,5 +162,35 @@ body {
     }
     .form-booking {
         flex-direction: column;
+        flex-flow: wrap;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:480px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .navigationbar {
+        text-align: center;
+        flex-direction: column;
+    }
+    .nav-item ul {
+        justify-content: center;
+    }
+    .nav-item ul li a {
+        font-size: 9px;
+    }
+    .home-containt p {
+        text-align: center;
+        font-size: 11px;
+    }
+    .home-containt h1 {
+        font-size: 37px;
+    }
+    .form-booking {
+        flex-direction: column;
+        flex-flow: wrap;
+        margin-top: -174px;
     }
 }

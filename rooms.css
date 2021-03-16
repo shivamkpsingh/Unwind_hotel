@@ -80,3 +80,10 @@
         flex-direction: column;
     }
 }
+
+@media only screen and (min-width:321px) and (max-width:480px) {
+    .room-feature {
+        display: flex;
+        flex-direction: column;
+    }
+}

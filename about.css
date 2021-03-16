@@ -93,7 +93,17 @@
         font-size: 28px;
         width: 230px;
     }
-    .service-topic h2 {
-        font-size: 30px !important;
+}
+
+@media only screen and (min-width:321px) and (max-width:480px) {
+    .about-title {
+        flex-direction: column;
+    }
+    .about-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-booking-card h2 {
+        font-size: 43px;
     }
 }

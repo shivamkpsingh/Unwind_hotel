@@ -4,21 +4,6 @@
     height: auto;
 }
 
-.service-topic {
-    text-align: center;
-}
-
-.service-topic span {
-    color: #c5a880;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
-.service-topic h2 {
-    font-size: 64px;
-    font-weight: 400;
-}
-
 .hotel-service {
     display: flex;
     margin-top: 70px;
@@ -47,9 +32,16 @@
 }
 
 @media only screen and (max-width:320px) {
-    .service-topic h2 {
-        font-size: 30px !important;
+    .hotel-service {
+        flex-direction: column;
     }
+    .service-item {
+        border-radius: 0px;
+        margin: 5px 0px 0px 0px;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:480px) {
     .hotel-service {
         flex-direction: column;
     }

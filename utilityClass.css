@@ -1,0 +1,26 @@
+.utility-class {
+    text-align: center;
+}
+
+.utility-class span {
+    color: #c5a880;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.utility-class h2 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width:320px) {
+    .utility-class {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:480px) {
+    .utility-class h2 {
+        font-size: 43px;
+    }
+}

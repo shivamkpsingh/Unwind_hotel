@@ -52,3 +52,13 @@
         display: block;
     }
 }
+
+@media only screen and (min-width:321px) and (max-width:480px) {
+    .blog-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-card-details {
+        display: block;
+    }
+}
