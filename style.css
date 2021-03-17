@@ -194,3 +194,48 @@ body {
         margin-top: -174px;
     }
 }
+
+@media only screen and (min-width:481px) and (max-width:790px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .navigationbar {
+        text-align: center;
+        flex-direction: column;
+    }
+    .nav-item ul {
+        justify-content: center;
+    }
+    .home-containt p {
+        text-align: center;
+    }
+    .home-containt {
+        margin-top: 65px;
+    }
+    .form-booking {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -207px;
+    }
+}
+
+@media only screen and (min-width:791px) and (max-width:1024px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .home-containt p {
+        text-align: center;
+    }
+    .form-content i {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+}

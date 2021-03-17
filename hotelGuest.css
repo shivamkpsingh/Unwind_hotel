@@ -64,3 +64,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media only screen and (min-width:481px) and (max-width:832px) {
+    .guest-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}

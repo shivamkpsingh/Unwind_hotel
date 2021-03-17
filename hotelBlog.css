@@ -62,3 +62,17 @@
         display: block;
     }
 }
+
+@media only screen and (min-width:481px) and (max-width:790px) {
+    .blog-content {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+}
+
+@media only screen and (min-width:790px) and (max-width:1024px) {
+    .blog-content {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+}
