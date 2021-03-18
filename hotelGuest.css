@@ -1,7 +1,6 @@
 #guest-section {
     margin-top: 60px;
     height: auto;
-    /* height: 400px; */
 }
 
 .guest-content {
@@ -13,7 +12,6 @@
 }
 
 .guest-card {
-    /* display: flex; */
     box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
 }
 

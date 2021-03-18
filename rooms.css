@@ -88,8 +88,9 @@
     }
 }
 
-@media only screen and (min-width:481px) and (max-width:790px) {
+@media only screen and (min-width:481px) and (max-width:1024px) {
     .room-feature {
         grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
     }
 }
