@@ -76,7 +76,7 @@
     }
 }
 
-@media only screen and (min-width:481px) and (max-width:790px) {
+@media only screen and (min-width:481px) and (max-width:1024px) {
     .resto-content {
         grid-template-columns: 1fr;
     }

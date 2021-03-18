@@ -63,7 +63,17 @@
     }
 }
 
-@media only screen and (min-width:481px) and (max-width:832px) {
+@media only screen and (min-width:481px) and (max-width:558px) {
+    .guest-content {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-content img {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media only screen and (min-width:559px) and (max-width:832px) {
     .guest-content {
         grid-template-columns: 1fr 1fr;
     }
